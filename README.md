@@ -1,6 +1,6 @@
 # Benchmarking Neural Network Robustness to Common Corruptions and Perturbations in Dermatology
 
-This repository contains the datasets and code for the paper [A Benchmark for Neural Network Robustness in Skin Cancer Classification](https://docs.google.com/document/d/1pn434Y0XJ54Gn7VAPPuSIxZC50WtwTaHEqcsPaa7O68/edit#heading=h.qiqtzrp85980). The study was heavily inspired and adapted from [Benchmarking Neural Network Robustness to Common Corruptions and Perturbations](https://arxiv.org/abs/1903.12261) (ICLR 2019) by Dan Hendrycks and Thomas Dietterich ([GitHub](https://github.com/hendrycks/robustness)).
+This repository contains the datasets and code for the paper **A Benchmark for Neural Network Robustness in Skin Cancer Classification**. The study was heavily inspired and adapted from [Benchmarking Neural Network Robustness to Common Corruptions and Perturbations](https://arxiv.org/abs/1903.12261) (ICLR 2019) by Dan Hendrycks and Thomas Dietterich ([GitHub](https://github.com/hendrycks/robustness)).
 
 ## Table of Contents
   1. [Overview](#overview)
@@ -41,9 +41,9 @@ SAM-C is derived from SAM by corrupting its images using 14 corruption types dra
 
 ## SAM-P
 
-SAM-P is derived from SAM by perturbing its images using 10 corruption types drawn from four main categories - noise, blur, dermoscopy and digital. Each image from SAM is perturbed 31 times, resulting in perturbation sequences similar to the ones shown below. This results in an effective dataset size of 98,890 images. In addition to the PNGs, we also provide an MP4 version of SAM-P for illustration, where each perturbation sequence is converted into a short video of 31 frames. This   
+SAM-P is derived from SAM by perturbing its images using 10 corruption types drawn from four main categories - noise, blur, dermoscopy and digital. Each image from SAM is perturbed 31 times, resulting in perturbation sequences similar to the ones shown below. This results in an effective dataset size of 98,890 images. In addition to the PNGs, we also provide an MP4 version of SAM-P for illustration, where each perturbation sequence is converted into a short video of 31 frames.    
 
-<img align="center" src="assets/SAM-P_brightness.gif" width="224" height="224"> <img align="center" src="assets/Sam-P_rotate.gif" width="224" height="224"> <img align="center" src="assets/SAM-P_zoomblur.gif" width="224" height="224"> <img align="center" src="assets/SAM-P_shotnoise.gif" width="224" height="224">
+<img align="center" src="assets/SAM-P_brightness.gif" width="185" height="185"> <img align="center" src="assets/Sam-P_rotate.gif" width="185" height="185"> <img align="center" src="assets/SAM-P_zoomblur.gif" width="185" height="185"> <img align="center" src="assets/SAM-P_shotnoise.gif" width="185" height="185">
 
 [Download SAM-P here \[106 GB\].](https://s3.dkfz.de/HD02-HBA-Benchmark/SAM-P.7z)
 
