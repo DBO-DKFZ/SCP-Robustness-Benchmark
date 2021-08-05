@@ -79,8 +79,7 @@ Evaluation of the submitted files is carried out by us using the metrics for SAM
 
 ## Citation
 
-If you use this benchmark in your research, please cite:
+Maron R.C. et al., A benchmark for neural network robustness in skin cancer classification, European Journal of Cancer
 
-  *TODO*
 
 
