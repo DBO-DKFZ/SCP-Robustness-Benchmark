@@ -51,7 +51,7 @@ SAM-P is derived from SAM by perturbing its images using 10 corruption types dra
 
 ## Results
 
-We provide the full corruption and perturbation results for all architectures broken down for each transformation type and averaged across all five repetitions. For [SAM-C](https://docs.google.com/spreadsheets/d/1Qo52dAkE55bR6AZTOBdJmI-VYn_XtxlR_kePeHihe3Y/edit?usp=sharing) we show both the *mCBE* (sheet 1) and *relative mCBE* (sheet 2). For [SAM-P](https://docs.google.com/spreadsheets/d/1bx8h27CFBtzQkDnW3ltXAjzCMJSRKC4tcIZaDgK10dw/edit?usp=sharing) we show the *mFR*. In each spreadsheet, Table 1 shows the unadjusted results while Table 2 shows the results that were adjusted by our AlexNet baseline.  
+We provide the full corruption and perturbation results for all architectures broken down for each transformation type and averaged across all five repetitions. For [SAM-C](https://docs.google.com/spreadsheets/d/1Qo52dAkE55bR6AZTOBdJmI-VYn_XtxlR_kePeHihe3Y/edit?usp=sharing) we show both the *mBCE* (sheet 1) and *relative mBCE* (sheet 2). For [SAM-P](https://docs.google.com/spreadsheets/d/1bx8h27CFBtzQkDnW3ltXAjzCMJSRKC4tcIZaDgK10dw/edit?usp=sharing) we show the *mFR*. In each spreadsheet, Table 1 shows the unadjusted results while Table 2 shows the results that were adjusted by our AlexNet baseline.  
 
 ## Submission
 
@@ -67,7 +67,7 @@ Each submission file is a single CSV (comma-separated value) file, with three co
 
 ## Evaluation
 
-Evaluation of the submitted files is carried out by us using the metrics for SAM, SAM-C and SAM-P that were outlined in the paper. For each submitted file, we will provide a corresponding csv file that will list the unadjusted metrics for each transformation. Researchers can then calculate the unadjusted *mCBE*, *relative mCBE* and *mFR*, as well as the [baseline](https://s3.dkfz.de/HD02-HBA-Benchmark/Baseline.7z) adjusted *mCBE*, *relative mCBE* and *mFR*.  We have provided an exemplary notebook and the necessary code to do so in this repo. 
+Evaluation of the submitted files is carried out by us using the metrics for SAM, SAM-C and SAM-P that were outlined in the paper. For each submitted file, we will provide a corresponding csv file that will list the unadjusted metrics for each transformation. Researchers can then calculate the unadjusted *mBCE*, *relative mBCE* and *mFR*, as well as the [baseline](https://s3.dkfz.de/HD02-HBA-Benchmark/Baseline.7z) adjusted *mBCE*, *relative mBCE* and *mFR*.  We have provided an exemplary notebook and the necessary code to do so in this repo. 
 
 ## Condensed Workflow
 
